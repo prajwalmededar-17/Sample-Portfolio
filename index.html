@@ -1,205 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8"/>
-        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-        <title>Portfolio</title>
-        <link rel="stylesheet" href="portfolio/index.css">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/
-        bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh
-        0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-
-
-        </head>
-        <body>
-            <header class="header_section">
-                <div class="container">
-                    <nav class="navbar navbar-expand-lg custom_nav-container">
-                        <div class="collapse navbar-collapse"
-                        id="navbarSupportedcontent">
-                    <ul class="navbar-nav mx-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="index.html">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#page1">skills</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#page2">Projects</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-item" href="#page3"> Contacts</a>
-                        </li>
-                    </ul>
-                </div>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./sample.css">
+</head>
+<body>
+    <header class="header_section">
+        <div class="container">
+            <nav class="navbar">
+                <ul class="navbar-nav">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
             </nav>
         </div>
     </header>
 
-    <div id="main">
-        <div id="page">
-
-            <img src="./prajwal.jpg" style="padding: 150px ;
-            border-radius: 50%;" alt="" />
-
-            <div id="text">
+    <section id="home" class="home_section">
+        <div class="home_content">
+            <img src="./prajwal.jpg" alt="Profile Picture" class="profile_pic">
+            <div class="intro_text">
                 <h2>Hello</h2>
                 <h1>I'm Prajwal</h1>
-                <h4>
-                I am Prajwal, a versatile web developer with expertise in
-                both front-end and back-end technologies. With a passion 
-                for creating seamless and dynamic user experiences,
-                I specialize in developing responsive and efficient websites and 
-                applications. My proficiency in front-end technologies 
-                like HTML, CSS, and JavaScript, combined with my strong back-end skills
-                in frameworks such as Node.js and databases like MySQL,
-                enables me to build robust and scalable solutions.
-                Explore my portfolio to see a diverse range of projects
-                that highlight my ability to bridge the gap between design
-                and functionality. Thank you for visiting, 
-                and I look forward to the opportunity to collaborate
-                and bring your vision to life
-                </h4>
-                <div id="buttons">
-                    <button id="b2">
-                        <a href="your_resume_link_here">RESUME </a>
-                    </button>
-                </div>
+                <p>I am a versatile web developer with expertise in front-end and back-end technologies, passionate about creating seamless and dynamic user experiences. Explore my portfolio to see my work.</p>
+                <a href="your_resume_link_here" class="btn">Resume</a>
             </div>
         </div>
-    </div>
-
-    <div id="page1">
-        <div id="right">
-            <div id="text1">
-
-            </div>
-        </div>
-    </div>
-
-    <div id="page1">
-        <div id="right">
-            <div id="text1">
-                <h1>My Skills</h1>
-                <h4>
-                    As a dedicated web developer, I've honed a versatile
-                    skill set
-                    that empower me to bring creative vision to life in
-                    the digital
-                    realm.my proficiency spans both front-end and back-end
-                    technologies including HTML,CSS,JavaScript,and a variety of 
-                    popular frameworks and libraries.
-                </h4>
-            </div>
-        </div>
-        <div id="left">
-            <div class="box">
-                <h1>Competative Programming</h1>
-                <p>
-                    I regurlarly do competitive coding since I love problem
-                    solving.I
-                    have 4 star at Codechef and 5 star at HackerRank.
-                </p>
-            </div>
-            <div class="box">
-                <h1>Design and Development</h1>
-                <p>
-                    I have developed many websites and projects. Over time 
-                    I have 
-                    gained a wealth of experience designing and developing
-                    web
-                    application.
-                </p>
-            </div>
-            <div class="box">
-                <h1>Machine Learning</h1>
-                <p>I'm Machine Learning Enthuasaiast.</p>
-            </div>
-        </div>
-    </div>
-    <div id="page2">
-        <div id="text4">
-            <h1>My Projects</h1>
-        </div>
-        <div id="project">
-            <div class="projects p1">
-                <div id="text3">
-                    <h1>Calculator</h1>
-                </div>
-                <div id="image">
-                    <a href="your_destination_link_here">
-                        <img src="./cltr.jpg" alt="Description of the
-                        project" />
-                    </a>
-                </div>
-            </div>
-            <div class="projects p2">
-                <div id="text3">
-                    <h1>TO-DO List Website</h1>
-                </div>
-                <div id="image">
-                    <a href="your_destination_link_here">
-                        <img src="./to-do1.png" alt="Description of the
-                        project"/>
-                    </a>
-                </div>
-            </div>
-            <div class="project p3">
-                <div id="text3">
-                    <h1>Newsletter Website</h1>
-                </div>
-                <div id="image">
-                    <a href="your_destination_link_here">
-                        <img src="./nwpr.jpg" alt="Description of the
-                        project" />
-                    </a>
-                </div>
-            </div>
-
-        </div>
-    </div>
-    <section class="end">
-        <div id="page3" class="Contact-me">
-            <br /><br />
-            <h2>Get In Touch</h2>
-            <br />
-
-            <p>Contact-me</p>
-            <br />
-
-            <a class="btn" href=""
-            ><img src="./gmail.png" width="40px" height="40px" 
-            /></a>
-            <a class="btn" href="" 
-            ><img src="./linkdin.png" width="40px" height="40px"
-            /></a>
-            <a class="btn" href=""
-            ><img src="./github.png" width="40px" height="40px"
-            /></a>
-            <a class="btn" href=""
-            ><img src="./twitter.jpg" width="40px" height="40px"
-            /></a>
-            <a class="btn" href=""
-            ><img src="./github.png" width="40px" height="40px"
-            /></a>
-           </div>
-           <div class="bottom-container">
-            <div style="width: 50%; margin-left: auto; margin-right: 
-            auto;">
-            <br>
-            <p class="copyright">ⓒ 2023 Portfolio.</p>
-            </div>
-           </div>
     </section>
 
-        </body>
+    <section id="skills" class="skills_section">
+        <h1>My Skills</h1>
+        <div class="skills_grid">
+            <div class="skill">
+                <h2>Competitive Programming</h2>
+                <p>I regularly solve competitive coding problems and have earned 4 stars on CodeChef and 5 stars on HackerRank.</p>
+            </div>
+            <div class="skill">
+                <h2>Design and Development</h2>
+                <p>I have developed multiple websites and web applications, gaining valuable experience over time.</p>
+            </div>
+            <div class="skill">
+                <h2>Machine Learning</h2>
+                <p>I am a machine learning enthusiast and enjoy exploring this field.</p>
+            </div>
+        </div>
+    </section>
 
+    <section id="projects" class="projects_section">
+        <h1>My Projects</h1>
+        <div class="projects_grid">
+            <div class="project">
+                <h2>Calculator</h2>
+                <a href="your_destination_link_here"><img src="./calculator.jpg" alt="Calculator Project"></a>
+            </div>
+            <div class="project">
+                <h2>To-Do List</h2>
+                <a href="your_destination_link_here"><img src="./to-do.png" alt="To-Do List Project"></a>
+            </div>
+            <div class="project">
+                <h2>Newsletter Website</h2>
+                <a href="your_destination_link_here"><img src="./newsletter.jpg" alt="Newsletter Project"></a>
+            </div>
+        </div>
+    </section>
 
-
-
-
-
-
-    </head>
+    <section id="contact" class="contact_section">
+        <h2>Get in Touch</h2>
+        <p>Feel free to reach out to me!</p>
+        <div class="social_links">
+            <a href=""><img src="./gmail.png" alt="Gmail"></a>
+            <a href=""><img src="./linkdin.png" alt="LinkedIn"></a>
+            <a href=""><img src="./github.png" alt="GitHub"></a>
+            <a href=""><img src="./twitter.jpg" alt="Twitter"></a>
+        </div>
+        <p class="copyright">© 2024 Portfolio</p>
+    </section>
+</body>
 </html>
